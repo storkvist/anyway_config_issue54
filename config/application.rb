@@ -34,4 +34,8 @@ module AnywayConfigIssue54
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
   end
+
+  def self.config
+    @_config ||= Anyway::Config.for(:dummy)
+  end
 end

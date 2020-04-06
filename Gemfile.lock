@@ -56,6 +56,8 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2)
+    anyway_config (2.0.0.rc1)
+      ruby-next-core (>= 0.5.1)
     bootsnap (1.4.6)
       msgpack (~> 1.0)
     builder (3.2.4)
@@ -123,6 +125,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    ruby-next-core (0.5.3)
     ruby_dep (1.5.0)
     spring (2.1.0)
     spring-watcher-listen (2.0.1)
@@ -149,6 +152,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  anyway_config (= 2.0.0.rc1)
   bootsnap (>= 1.4.2)
   byebug
   listen (>= 3.0.5, < 3.2)

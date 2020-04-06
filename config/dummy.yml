@@ -1,0 +1,8 @@
+local: &local
+  some_config: some_value
+
+development:
+  <<: *local
+
+test:
+  <<: *local
